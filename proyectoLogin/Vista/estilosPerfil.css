@@ -1,0 +1,79 @@
+ *{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+ 
+ body{
+    background-color: rgba(39, 165, 96, 0.938);
+ }
+ 
+ #divPrincipal{ 
+    background-color: rgb(255, 255, 255);;
+    height: 40vh;
+    width: 50vh;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#campoImg {
+    display: flex;         
+    justify-content: center; 
+    align-items: end;    
+    width: 35vh;
+    height: 35vh;
+    overflow: hidden; /*Recorta la imágen al círculo*/
+}
+
+#campoImg img {
+    border-radius: 50%;
+    border: 5px solid rgba(39, 165, 96, 0.938);;
+    width: 95%;
+    height: 95%;
+    object-position: center;
+    object-fit: cover; /*Recorta sin deformar la imagen*/
+}
+
+#fotoGenerica{
+    font-size: 30vh;
+    color: rgba(39, 165, 96, 0.938);
+}
+
+#campoUsr{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+#campoUsr p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#campoA {
+    width: 100%;
+    margin-top: 8px;
+} 
+
+#campoA a {
+    font-size: 2vh;
+    align-items: start;
+    color: #383838;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#campoA a:hover{
+    color: rgb(1, 196, 1);
+}
